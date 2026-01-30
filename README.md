@@ -1,32 +1,31 @@
-# Book Management using Struct in C
+# Quản Lý Sách Bằng Struct Trong C
 
-## 📌 Overview
-This project demonstrates how to use `struct` in **C language** to manage book information.  
-The program supports **writing book data to a file** and **reading book data from a file**.
+## 📌 Giới thiệu
+Dự án này minh họa cách sử dụng **struct trong ngôn ngữ C** để quản lý thông tin sách.  
+Chương trình hỗ trợ **ghi dữ liệu sách ra file** và **đọc dữ liệu sách từ file**.
 
-It is suitable for basic C programming practice, especially for:
-- `struct`
-- File I/O
-- Separating write & read logic
+Phù hợp cho sinh viên học:
+- Struct trong C
+- Xử lý file (File I/O)
+- Lập trình C cơ bản
 
-## 📂 Project Structure
+## 📂 Cấu trúc thư mục
 
-## ⚙️ Features
-- Define a `struct` for book information
-- Input book data from keyboard
-- Save book data to file
-- Read and display book data from file
+## ⚙️ Chức năng
+- Khai báo cấu trúc `struct` lưu thông tin sách
+- Nhập thông tin sách từ bàn phím
+- Ghi dữ liệu sách vào file
+- Đọc dữ liệu sách từ file và hiển thị ra màn hình
 
-## 🛠 Requirements
-- C Compiler (GCC / Dev-C++ / Code::Blocks)
-- Windows or Linux OS
+## 🛠 Yêu cầu
+- Trình biên dịch C (GCC / Dev-C++ / Code::Blocks)
+- Hệ điều hành Windows hoặc Linux
 
-## 🚀 Build & Run
+## 🚀 Biên dịch và chạy chương trình
 
-### Compile
+### Biên dịch
 ```bash
 gcc STRUCT_N_SACH_write.c -o write
 gcc STRUCT_N_SACH_READ.c -o read
-./write   # Enter and save book data
-./read    # Read and display book data
-
+./write   # Nhập và ghi dữ liệu sách
+./read    # Đọc và hiển thị dữ liệu sách
